@@ -1,0 +1,100 @@
+
+/*import this for lib*/
+.slidedown {
+    -webkit-animation: slideDown;
+            animation: slideDown;
+  }
+  
+  @-webkit-keyframes slideDown {
+    from {
+      -webkit-transform: translateY(-20%);
+              transform: translateY(-20%);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .slideup {
+    -webkit-animation: slideUp;
+            animation: slideUp;
+  }
+  
+  @-webkit-keyframes slideUp {
+    from {
+      -webkit-transform: translateY(20%);
+              transform: translateY(20%);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  .slideleft {
+    -webkit-animation: slideLeft;
+            animation: slideLeft;
+  }
+  
+  @-webkit-keyframes slideLeft {
+    from {
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  .slideright {
+    -webkit-animation: slideRight;
+            animation: slideRight;
+  }
+  
+  @-webkit-keyframes slideRight {
+    from {
+      -webkit-transform: translateX(15%);
+              transform: translateX(15%);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadein {
+    -webkit-animation: fadeIn 2s;
+            animation: fadeIn 2s;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeout {
+    -webkit-animation: fadeout;
+            animation: fadeout;
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {
+      opacity: 0;
+      -webkit-transform: scale(50deg);
+              transform: scale(50);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
